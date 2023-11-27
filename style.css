@@ -8,23 +8,19 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 170vh;
 }
 
 
 /* NAVBAR */
 
-.navbar .container-sm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-    margin: 2em auto;
-}
+.navbar {}
 
 .navbar .logo {
     display: flex;
     align-items: center;
     margin-right: auto;
+    gap: 0.6em;
 }
 
 .main-menu ul {
@@ -47,15 +43,55 @@ body {
 
 /* HERO SECTION */
 
-.hero .container {
-    border: 1px solid rebeccapurple;
-    height: 50vh;
-    background-color: rebeccapurple;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.hero {}
 
 .hero .container h1 {
     color: #FFF;
+}
+
+
+
+
+/* PRODUCT GALERY  */
+
+.products-galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.product-img {
+    height: 10em;
+}
+
+.row-striped:nth-of-type(odd) {
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+}
+
+.row-striped:nth-of-type(even) {
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+
+
+/* CLASSES UTILITAIRES */
+
+.container-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 2em auto;
+}
+
+.container-md {
+    border: 1px solid rebeccapurple;
+    height: 50vh;
 }
