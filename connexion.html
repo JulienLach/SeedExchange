@@ -62,7 +62,39 @@
     <section class="hero">
         <div class="container-md">
             <div class="hero-content">
-                <h1>HEADER</h1>
+                <h1>Registration form</h1>
+                <form action="/submit_registration" method="post">
+                    <div class="col">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                    </div>
+                    <div class="col">
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="pwd">Password:</label><br>
+                        <input type="password" id="pwd" name="pwd"><br>
+                    </div>
+                    <div class="clearfix"></div><br>
+                    <input class="submit" type="submit" value="Sign up">
+                </form>
+            </div>
+
+            <div class="hero-content">
+                <h1>Login form</h1>
+                <form action="/submit_login" method="post">
+                    <div class="col">
+                        <label for="login_email">Email:</label><br>
+                        <input type="text" id="login_email" name="login_email"><br>
+                    </div>
+                    <div class="col">
+                        <label for="login_pwd">Password:</label><br>
+                        <input type="password" id="login_pwd" name="login_pwd"><br>
+                    </div>
+                    <div class="clearfix"></div><br>
+                    <input class="submit" type="submit" value="Login">
+                </form>
             </div>
         </div>
     </section>

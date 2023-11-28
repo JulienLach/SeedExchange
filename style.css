@@ -95,3 +95,45 @@ body {
     border: 1px solid rebeccapurple;
     height: 50vh;
 }
+
+
+/* Connexion  */
+
+.container-md {
+    width: 100%;
+    overflow: auto;
+}
+
+.hero-content {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.submit {
+    background-color: #78AA48;
+    color: #fff !important;
+    border: none;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 4px 25px;
+    font-family: "Open Sans", sans-serif;
+    transition: all ease 0.5s;
+    outline: none;
+    min-height: 32px;
+}
+
+.submit:hover {
+    color: #fff;
+    background-color: #E45C0E;
+}
