@@ -1,4 +1,4 @@
-# SeedExchange
+## SeedExchange
 
 *Changements à faire sur la branche production*
 
@@ -10,6 +10,7 @@
 ```
     git pull origin production
     git pull origin main
+
 ```
 
 2. Changer de branche :
