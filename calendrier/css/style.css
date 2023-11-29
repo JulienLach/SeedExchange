@@ -2195,7 +2195,6 @@ pre code {
 
 .table-dark.table-hover tbody tr:hover {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.075);
 }
 
 @media (max-width: 575.98px) {
@@ -12074,9 +12073,6 @@ h5,
   position: relative;
 }
 
-.table-date:not(.nil):hover {
-  border-color: #cd4dcc;
-}
 
 .event-date {
   border-color: #7e0cf5;
