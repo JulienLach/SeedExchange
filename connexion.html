@@ -28,28 +28,27 @@
     <nav class="navbar">
         <div class="container-sm">
             <div class="logo">
-                <a href="index.html"></a>
                 <i class="bi bi-tree-fill"></i>
-                <h1>SeedExchange</h1>
+                <a href="index.html">SeedExchange</a>
             </div>
             <div class="main-menu">
                 <ul>
                     <li>
-                        <a href="">Catalogue produits</a>
+                        <a href="catalogue.html">Products</a>
                     </li>
                     <li>
-                        <a href="">Calendrier</a>
+                        <a href="calendrier.html">Calendar</a>
                     </li>
                     <li>
-                        <a href="">Se connecter</a>
+                        <a href="connexion.html">Login/Register</a>
                     </li>
                 </ul>
             </div>
             <!-- SEARCH CONTAINER -->
             <div class="search-container">
                 <form action="">
-                    <input type="text" placeholder="Rechercher une variété..." name="search">
-                    <button type="submit"><i class="fa fa-search"></i>RECHERCHER</button>
+                    <input type="text" placeholder="Search for..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i>Search</button>
                 </form>
             </div>
         </div>
@@ -62,41 +61,41 @@
     <section class="hero">
         <div class="container-md">
             <div class="hero-content">
-                <h1>Registration form</h1>
-                <form action="/submit_registration" method="post">
-                    <div class="col">
-                        <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname"><br>
-                        <label for="lname">Name:</label><br>
-                        <input type="text" id="lname" name="lname"><br>
-                    </div>
-                    <div class="col">
-                        <label for="email">Email:</label><br>
-                        <input type="text" id="email" name="email"><br>
-                        <label for="pwd">Password:</label><br>
-                        <input type="password" id="pwd" name="pwd"><br>
-                    </div>
-                    <div class="clearfix"></div><br>
-                    <input class="submit" type="submit" value="Sign up">
-                </form>
-            </div>
-
-
-            <div class="hero-content">
-                <h1>Login form</h1>
-                <form action="/submit_login" method="post">
-                    <div class="col">
-                        <label for="login_email">Email:</label><br>
-                        <input type="text" id="login_email" name="login_email"><br>
-                    </div>
-                    <div class="col">
-                        <label for="login_pwd">Password:</label><br>
-                        <input type="password" id="login_pwd" name="login_pwd"><br>
-                    </div>
-                    <div class="clearfix"></div><br>
-                    <input class="submit" type="submit" value="Login">
-                </form>
-                <a href="#">Forgot password ?</a>
+                <div class="hero-form">
+                    <h1>Registration form</h1>
+                    <form action="/submit_registration" method="post">
+                        <div class="col">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Name:</label><br>
+                            <input type="text" id="lname" name="lname"><br>
+                        </div>
+                        <div class="col">
+                            <label for="email">Email:</label><br>
+                            <input type="text" id="email" name="email"><br>
+                            <label for="pwd">Password:</label><br>
+                            <input type="password" id="pwd" name="pwd"><br>
+                        </div>
+                        <div class="clearfix"></div><br>
+                        <input class="submit" type="submit" value="Sign up">
+                    </form>
+                </div>
+                <div class="hero-form">
+                    <h1>Login form</h1>
+                    <form action="/submit_login" method="post">
+                        <div class="col">
+                            <label for="login_email">Email:</label><br>
+                            <input type="text" id="login_email" name="login_email"><br>
+                        </div>
+                        <div class="col">
+                            <label for="login_pwd">Password:</label><br>
+                            <input type="password" id="login_pwd" name="login_pwd"><br>
+                        </div>
+                        <div class="clearfix"></div><br>
+                        <input class="submit" type="submit" value="Login">
+                    </form>
+                    <a href="#">Forgot password ?</a>
+                </div>
             </div>
         </div>
     </section>
@@ -118,9 +117,10 @@
                 <div class="grid-item">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
+                        <li><a href="profil.html">Profil</a></li>
                     </ul>
                 </div>
                 <div class="grid-item">
