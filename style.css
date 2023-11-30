@@ -114,7 +114,7 @@ body {
     gap: 1em;
 }
 
-.product-content {
+.product-sheet {
     display: flex;
     flex-direction: column;
     gap: 1em;
